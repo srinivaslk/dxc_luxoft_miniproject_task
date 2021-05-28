@@ -1,0 +1,32 @@
+{
+  "name": "dxc",
+  "version": "1.0.0",
+  "description": "api for todoapp",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server.js localhost 3080",
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "srinivas",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.3",
+    "mocha": "^8.4.0",
+    "random-id": "^1.0.4",
+    "swagger-jsdoc": "^4.3.2",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "dx"
+  ]
+}
